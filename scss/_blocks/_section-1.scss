@@ -58,10 +58,9 @@
         margin-bottom: 259px;
     }
 }
-
 .picture {
     position: relative;
-
+    
     &__btn {
         position: absolute;
         right: 257px;
@@ -69,12 +68,11 @@
         width: 120px;
         height: 120px;
     }
-
-    &__btn:active {
-        background-color: red;
-    }
 }
 
+// svg:hover path {
+//     fill: red;
+// }
 @media screen and (max-width:1200px) {
     .section-1 {
         background: #E5E5E5;
