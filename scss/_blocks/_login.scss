@@ -1,0 +1,47 @@
+.login-section {
+    background-image: linear-gradient(to bottom, #2A8086 0% 15%, #fff 15% 100%);
+    width: 568px;
+    height: 635px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-left: 60px;
+
+    &__menu {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-top: 42px;
+    }
+
+    &__item {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #0D444D;
+    }
+
+    &__line-1 {
+        width: 224px;
+        height: 2px;
+        border: none;
+        background: #C5E1E6;
+        margin-top: 20px;
+    }
+
+    &__line-2 {
+        width: 224px;
+        height: 2px;
+        border: none;
+        background: #2A8086;
+        margin-top: 20px;
+    }
+}

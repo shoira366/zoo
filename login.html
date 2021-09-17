@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <section class="login-section">
+        <h2 class="frame-section__title">Lorem, ipsum.</h2>
+        <a class="login-section__link" href="#">
+            <img class="login-section__img" src="./images/Logo-large.svg" width="78" height="60" alt="logo">
+        </a>
+        <ul class="login-section__menu">
+            <li class="login-section__item"><a class="login-section__link" href="./index.html">Create acccount</a>
+                <hr class="login-section__line-1">
+            </li>
+            <li class="login-section__item"><a class="login-section__link" href="./login.html">Log in</a>
+                <hr class="login-section__line-2">
+            </li>
+        </ul>
+        <ul class="section-add__menu">
+            <li class="section-add__item"><a class="section-add__link-1" href="#">Google Sign in</a></li>
+            <li class="section-add__item"><a class="section-add__link-2" href="#">Facebook Sign in</a></li>
+        </ul>
+
+        <form class="frame-section__form" method="POST" action="http://echo.htmlacademy.ru">
+            <label class="frame-section__label">
+                <span class="frame-section__span">Email</span>
+                <input name="user_email" class="frame-section__input" type="email" required>
+            </label>
+            <label class="frame-section__label">
+                <span class="frame-section__span">Password</span>
+                <input name="password" class="frame-section__input" type="password" required>
+            </label>
+
+            <button class="frame-section__button" type="submit">SEND</button>
+        </form>
+    </section>
+
+</body>
+
+</html>

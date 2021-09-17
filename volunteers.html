@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <section class="volunteers-section">
+        <h4 class="contact-section__title">Donate to volunteers</h4>
+
+        <p class="volunteers-section__text">Support your favourite animals. It is as simple as buying a cup of coffee.
+        </p>
+
+        <form class="frame-section__form" method="POST" action="http://echo.htmlacademy.ru">
+            <label class="frame-section__label">
+                <span class="frame-section__span">Choose an animal</span>
+                <input name="user_name" class="frame-section__input" type="text" required>
+            </label>
+            <div class="frame-section__label">
+                <span class="frame-section__span">Payments</span>
+                <span class="volunteers-section__span">
+                    <button class="volunteers-section__button1" type="button">
+                        <span class="volunteers-section__monthly">Monthly</span>
+                    </button>
+                    <button class="volunteers-section__button2" type="button">
+                        <span class="volunteers-section__one-time">One-time</span>
+                    </button>
+                </span>
+                <div class="volunteers-section__prices-box">
+                    <button class="volunteers-section__price" type="button">$3</button>
+                    <button class="volunteers-section__price" type="button">$5</button>
+                    <button class="volunteers-section__price" type="button">$10</button>
+                    <button class="volunteers-section__price" type="button">$25</button>
+                </div>
+            </div>
+            <label class="frame-section__label">
+                <span class="frame-section__span">Your name</span>
+                <input name="user_email" class="frame-section__input" type="email" required>
+            </label>
+            <label class="frame-section__label">
+                <span class="frame-section__span">Your name</span>
+                <input name="user_email" class="frame-section__input" type="email" required>
+            </label>
+
+            <img class="volunteers-section__cards" src="./images/Payment-Methods.svg" alt="card" width="101"
+                height="16" />
+            <br>
+
+            <label class="volunteers-section__label">
+                <img class="volunteers-section__card-img" src="./images/Credit-Card.svg" width="20" height="16"
+                    alt="card">
+                <span class="volunteers-section__span-card">Card Number</span>
+                <input name="card-number" placeholder="MM / YY  CVC" class="volunteers-section__input" type="number"
+                    required>
+            </label>
+            <button class="frame-section__button" type="submit">SEND</button>
+            <div class="volunteers-section__wrapper">
+                <img class="volunteers-section__image-second" src="./images/Frame-1359.svg" alt="frame" width="13"
+                    height="14" />
+                <p class="volunteers-section__text-payment">Your payment is protected</p>
+                </div>
+        </form>
+    </section>
+
+</body>
+
+</html>

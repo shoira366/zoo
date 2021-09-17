@@ -1,0 +1,117 @@
+.section-3 {
+    padding-top: 57px;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0D444D;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #19707D;
+
+        border: 1.5px solid #19707D;
+        box-sizing: border-box;
+        border-radius: 100px;
+        padding: 10px 20px;
+    }
+
+    &__menu {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 66px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        width: 470px;
+        height: 364px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+    }
+
+    &__item:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    &__line {
+        margin-top: 32px;
+        width: 480px;
+        height: 1px;
+        border: none;
+        background-color: #E5EAEB;
+    }
+
+    &__text-box {
+        display: flex;
+        align-items: center;
+        margin-top: 17px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    &__span1 {
+        margin-right: 126px;
+    }
+
+    &__span2 {
+        margin-right: 272px;
+    }
+
+    &__span3 {
+        margin-right: 271px;
+    }
+
+    &__span4 {
+        margin-right: 54px;
+    }
+
+    &__span5 {
+        margin-right: 227px;
+    }
+
+    &__span6 {
+        margin-right: 289px;
+    }
+
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #2D2D2D;
+        margin-bottom: 6px;
+    }
+
+    &__description {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #919191;
+    }
+}

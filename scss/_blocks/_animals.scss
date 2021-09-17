@@ -1,0 +1,50 @@
+.animals {
+    padding-top: 100px;
+    padding-bottom: 115px;
+
+    &__title {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #0D444D;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 66px;
+    }
+
+    &__wrapper__way {
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__wrapper__title {
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2D2D2D;
+    }
+}
+
+.way__right {
+    margin-bottom: 31px;
+}
+
+.tdn {
+    text-decoration: none;
+}
+
+.down {
+    display: none;
+}

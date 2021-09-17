@@ -1,0 +1,119 @@
+.section-1 {
+    padding-bottom: 48px;
+    padding-top: 48px;
+    background-image: url('../images/box.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & .container {
+        border-top: 1px solid transparent;
+        display: flex;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        width: 750px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 85px;
+        color: #F3F7F8;
+        margin-bottom: 27px;
+    }
+
+    &__text {
+        width: 480px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #F3F7F8;
+        margin-bottom: 87px;
+    }
+
+    &__link {
+        width: 258px;
+        height: 52px;
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.05em;
+        text-transform: uppercase;
+        color: #0D444D;
+        padding: 14px 84px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+        border-radius: 100px;
+        margin-bottom: 259px;
+    }
+}
+
+.picture {
+    position: relative;
+
+    &__btn {
+        position: absolute;
+        right: 257px;
+        top: 251px;
+        width: 120px;
+        height: 120px;
+    }
+
+    &__btn:active {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .section-1 {
+        background: #E5E5E5;
+        background-image: url('../images/box.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+       & .container{
+           display: flex;
+       }
+        &__title {
+            font-size: 64px;
+            line-height: 76px;
+            width: 630px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+
+    .picture {
+        position: relative;
+
+        &__img {
+            width: 560px;
+            height: 464px;
+        }
+
+        &__btn {
+            position: absolute;
+            top: 215px;
+            right: 180px;
+
+            &--img {
+                width: 84px;
+                height: 84px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,136 @@
+.testimonials {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    position: relative;
+
+    &__title {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #0D444D;
+    }
+
+    &__btn {
+        height: 52px;
+        font-family: 'Roboto Mono';
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #19707D;
+        text-decoration: none;
+        border: 1.5px solid #19707D;
+        box-sizing: border-box;
+        border-radius: 100px;
+        padding: 14px 20px 14px 20px;
+    }
+
+    &__icon {
+        margin-right: 16px;
+    }
+
+    &__box__wrapper {
+        display: flex;
+        margin-top: 64px;
+    }
+
+    &__box {
+        width: 480px;
+        height: 190px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+        padding: 28px 45px 0 45px;
+        margin-right: 20px;
+
+        // position: relative;
+        &::after {
+            position: absolute;
+            content: " ";
+            border: 40px solid #ffff;
+            border-left: transparent 25px solid;
+            border-right: transparent 25px solid;
+            border-bottom: transparent 10px solid;
+            transform: translate(20px, 85px);
+        }
+    }
+
+    &__box:last-child {
+        margin-right: 0;
+    }
+
+    &__time {
+        height: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #B3B3B3;
+    }
+
+    &__humans {
+        display: flex;
+        transform: translateX(0px);
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 25px;
+
+        &__wrapper {
+            display: flex;
+        }
+
+    }
+
+    &__humans__wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .chris {
+        transform: translateX(-130px);
+    }
+
+    .amely {
+        transform: translateX(-140px);
+
+        &__title {
+            transform: translateX(-140px);
+        }
+    }
+}
+
+.testimonals__subtitle {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 9px 0 0 0;
+
+}
+
+.testimonials__humas__title {
+    font-family: 'Roboto';
+    margin-left: 16px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.btn {
+    display: none;
+}

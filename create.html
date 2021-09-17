@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <section class="frame-section">
+        <h2 class="frame-section__title">Lorem, ipsum.</h2>
+        <a class="header-frame__link" href="./index.html"><img class="header-frame__img" src="./images/Logo-large.svg"
+                alt="logo" width="78" height="61"></a>
+        <ul class="frame-section__menu">
+            <li class="frame-section__item"><a class="frame-section__link" href="./index.html">Create acccount</a>
+                <hr class="frame-section__line-1">
+            </li>
+            <li class="frame-section__item"><a class="frame-section__link" href="./login.html">Log in</a>
+                <hr class="frame-section__line-2">
+            </li>
+        </ul>
+        <ul class="section-add__menu">
+            <li class="section-add__item"><a class="section-add__link-1" href="#">Google Sign in</a></li>
+            <li class="section-add__item"><a class="section-add__link-2" href="#">Facebook Sign in</a></li>
+        </ul>
+
+        <form class="frame-section__form" method="POST" action="http://echo.htmlacademy.ru">
+            <label class="frame-section__label">
+                <span class="frame-section__span">NAME</span>
+                <input name="user_name" class="frame-section__input" type="text" required>
+            </label>
+            <label class="frame-section__label">
+                <span class="frame-section__span">Email</span>
+                <input name="user_email" class="frame-section__input" type="email" required>
+            </label>
+            <label class="frame-section__label">
+                <span class="frame-section__span">Password</span>
+                <input name="password" class="frame-section__input" type="password" required>
+            </label>
+            <label class="frame-section__label-check">
+                <input name="user_check" class="frame-section__input-check" type="checkbox">
+                <span class="frame-section__agree"> Agree with the <a class="frame-section__link-agree" href="#">User
+                        Agreement</a> and <a class="frame-section__link-agree" href="#">Privacy Policy</a></span>
+            </label>
+
+            <button class="frame-section__button" type="submit">SEND</button>
+        </form>
+    </section>
+</body>
+
+</html>
